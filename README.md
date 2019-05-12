@@ -6,11 +6,11 @@ To illustrate, the figure on the right shows a directional graph with 10 nodes a
 Part I – Non-directional graph:
 
 -The Node class:
-        Attributes
-                name (str) – the “name” of the node
-                adjacents (dict) – a dictionary of the nodes that are paired with the node
-                        Key – neighbor name
-                        Value – edge weight
+Attributes:
+        name (str) – the “name” of the node
+        adjacents (dict) – a dictionary of the nodes that are paired with the node
+                Key – neighbor name
+                Value – edge weight
         Methods
     __init__(self, name)
     __str__(self)
