@@ -46,8 +46,8 @@ Attributes:
     o	get_edge_weight(self, frm_name, to_name)
     o	get_path_weight(self, path) – returns the total weight of the given path, where path is an iterable of nodes names.
     o	find_path(self, frm_name, to_name) – returns a path from frm_name to to_name (if exists)
-    -	find_shortest_path(self, frm_name, to_name) – returns the path from frm_name to to_name which has the minimum total weight
-    - suggest_friend(graph, node_name) that returns the name of the node with the highest number of common friends with node_name, which       is not already one of his friends.
+    o	find_shortest_path(self, frm_name, to_name) – returns the path from frm_name to to_name which has the minimum total weight
+    o suggest_friend(graph, node_name) that returns the name of the node with the highest number of common friends with node_name, which       is not already one of his friends.
 
  – The Directional Graph class- same as the previous only with
 
