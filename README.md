@@ -46,8 +46,8 @@ Attributes:
     o	get_edge_weight(self, frm_name, to_name)
     o	get_path_weight(self, path) – returns the total weight of the given path, where path is an iterable of nodes names.
     o	find_path(self, frm_name, to_name) – returns a path from frm_name to to_name (if exists)
-    o	find_shortest_path(self, frm_name, to_name) – returns the path from frm_name to to_name which has the minimum total weight
-    o suggest_friend(graph, node_name) that returns the name of the node with the highest number of common friends with node_name, which       is not already one of his friends.
+    -	find_shortest_path(self, frm_name, to_name) – returns the path from frm_name to to_name which has the minimum total weight
+    - suggest_friend(graph, node_name) that returns the name of the node with the highest number of common friends with node_name, which       is not already one of his friends.
 
  – The Directional Graph class- same as the previous only with
 
@@ -56,6 +56,8 @@ Part II – Directional graph
 
     – The roadmap implementation
         The files travelsEW.csv and travelsWE.csv record a large number of travels made by people from five regions in the country.
-        From each file create a graph whose nodes are the country regions, and whose edges are the roads (if a travel was not recorded           between country regions, then it means such road does not exist). The weight of each edge is defined as the average of all the           travels done on that road. When the two graphs are ready, add them together to create the complete graph of the roadmap.
+        From each file create a graph whose nodes are the country regions, and whose edges are the roads (if a travel was not recorded  
+        between country regions, then it means such road does not exist). The weight of each edge is defined as the average of all the
+        travels done on that road. When the two graphs are ready, add them together to create the complete graph of the roadmap.
 
 
