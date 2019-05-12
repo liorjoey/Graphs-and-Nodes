@@ -6,22 +6,22 @@ To illustrate, the figure on the right shows a directional graph with 10 nodes a
 Part I – Non-directional graph:
 
 -The Node class:
-•	Attributes
-o	name (str) – the “name” of the node
-o	adjacents (dict) – a dictionary of the nodes that are paired with the node
-        Key – neighbor name
-        Value – edge weight
-  •	Methods
-    o	__init__(self, name)
-    o	__str__(self)
-    o	__eq__(self, other) – based on the name attribute
-    o	__ne__(self, other)
-    o	neighbors(self) – returns a list of the names of the adjacent nodes
-    o	is_neighbor(self, name) – returns True if there is an edge connecting the node to name
-    o	add_neighbor(self, name, weight=1)
-    o	remove_neighbor(self, name)
-    o	get_weight(self, name) – returns the weight of the relevant edge (if exists)
-    o	is_isolated(self, name) – returns True if name has no neighbors
+        Attributes
+                name (str) – the “name” of the node
+                adjacents (dict) – a dictionary of the nodes that are paired with the node
+                        Key – neighbor name
+                        Value – edge weight
+        Methods
+    __init__(self, name)
+    __str__(self)
+    __eq__(self, other) – based on the name attribute
+    __ne__(self, other)
+    neighbors(self) – returns a list of the names of the adjacent nodes
+    is_neighbor(self, name) – returns True if there is an edge connecting the node to name
+    add_neighbor(self, name, weight=1)
+    remove_neighbor(self, name)
+    get_weight(self, name) – returns the weight of the relevant edge (if exists)
+    is_isolated(self, name) – returns True if name has no neighbors
 
  – The Graph class
 
